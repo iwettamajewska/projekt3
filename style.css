@@ -7,6 +7,7 @@
 .container {
     width: 80vw;
     margin: 0 auto;
+    padding-bottom: 2.5rem;
 }
 
 .body {
@@ -150,14 +151,9 @@ justify-content: flex-start;
 
 /* 1 SECTION */
 
-.first-section {
-/* margin: 4.0625rem 15rem;     */
-}
 
 
 .pink-background-container {
-    /* width: 80vw;
-    height: auto; */
     width: 69,81rem;
     height: 35rem;
     background-color: rgba(240, 99, 184, 0.15);
@@ -197,32 +193,89 @@ justify-content: flex-start;
 
 /* 2 SECTION */
 
-.second-section {
-    margin: 65px 240px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .main-text-ss {
     color: #212353;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .small-text-ss {
     color: #212353;
     font-size: 1.125rem;
     font-weight: 500;
+    text-align: center;
 }
 
 
 /* 3 SECTION */
 
-.third-section {
-    margin: 65px 240px;
+.box {
+    margin: 2.5rem;
 }
+
+
+.box1 {
+    display: flex;
+    background-image: url("Rectangle 39_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 27.6rem;
+    height: 14.5rem;
+}
+
+.box2 {
+    display: flex;
+    background-image: url("Rectangle 39_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 27.6rem;
+    height: 14.5rem;
+}
+
+.box3 {
+    display: flex;
+    background-image: url("Rectangle 39_3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 27.6rem;
+    height: 14.5rem;
+}
+
+.box4 {
+    display: flex;
+    background-image: url("Rectangle 39_4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 27.6rem;
+    height: 14.5rem;
+}
+
+
+.front-image-box1 {
+    width: 14.5rem;
+    height: 13.2rem;
+}
+
+.front-image-box2 {
+    width: 15.1rem;
+    height: 11.8rem;
+}
+
+.front-image-box3 {
+    width: 15.3rem;
+    height: 11.3rem;
+}
+
+.front-image-box4 {
+    width: 14.4rem;
+    height: 12.6rem;
+}
+
 
 .main-text-box {
     color: #212353;
@@ -240,4 +293,86 @@ justify-content: flex-start;
    color: #212353;
    font-size: 1rem;
    font-weight: 800; 
+}
+
+.third-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* DLACZEGO NIE MOGĘ WYŚRODKOWAĆ W PIONIE? SCHODZI MI TYLKO ODROBINĘ NA DÓŁ */
+.left-container-of-box {
+    display: flex;
+    align-items: flex-end;
+} 
+
+.right-container-of-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* 4 SECTION */
+
+.big-purple-rectangle {
+    width: 69.9rem;
+    height: 44.3rem;
+    background-color: #9C69E2;
+    border: 0.06rem solid #9C69E2;
+    border-radius: 3.125rem;
+}
+
+.big-text-fourth-section {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.first-white-rectangle {
+width: 40.3rem;
+height: 20.6rem;
+border: 0.06rem solid #FFFFFF;
+border-radius: 1.25rem;
+background-color: #FFFFFF;
+margin: 1.25rem;
+}
+
+.second-white-rectangle {
+width: 25rem;
+height: 20.6rem;
+border: 0.06rem solid #FFFFFF;
+border-radius: 1.25rem;
+background-color: #FFFFFF;
+margin: 1.25rem;
+}
+
+.third-white-rectangle {
+width: 25rem;
+height: 20.6rem;
+border: 0.06rem solid #FFFFFF;
+border-radius: 1.25rem;
+background-color: #FFFFFF;
+margin: 1.25rem;
+}
+
+.three-medium-rectangles {
+    display: flex;
+}
+
+.first-ellipse {
+    width: 0.6rem;
+    height: 0.6rem;
+    border: 0.06rem solid #F063B8;
+    border-radius: 50%;
+    background-color: #F063B8;
+}
+
+.second-ellipse, .third-ellipse, .fourth-ellipse {
+    width: 0.31rem;
+    height: 0.31rem;
+    border: 0.06rem solid #FFFFFF;
+    border-radius: 50%;
+    background-color: #FFFFFF;
 }
