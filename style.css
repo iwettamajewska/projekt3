@@ -481,4 +481,71 @@ margin-top: 2rem;
 
 .rectangle-and-datawarehouse {
     display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.datawarehouse-about-help-sm-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datawarehouse {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #212353;
+}
+
+.contact {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #212353;
+    
+}
+
+.mail-phone {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212353;
+}
+
+.address1 {
+    margin-bottom: 1rem;
+}
+.address2 {
+margin-bottom: 2rem;
+}
+
+.a-h-sm {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #212353;
+    margin-bottom: 3rem;
+}
+
+.small-text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212353;
+    margin-bottom: 1rem;
+}
+
+
+
+/* FOOTER */
+
+.footer-text {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #212353;
+}
+
+.first-line {
+    margin-bottom: 0.5rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
 }
