@@ -17,19 +17,22 @@
 }
 
 .recangle-container {
+    /* width: 15%; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+        /* justify-content: space-around; */
+    gap: 0.5rem;
+    align-items: flex-end;
 }
+
 
 
 .links {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
 }
 
-.container-bth {
+.container-btn {
     display: flex;
     flex-direction: row;
 }
@@ -47,7 +50,7 @@
     height: 1.25rem;
     background-color: #9C69E2;
     border-radius: 50%;
-    margin: 0 0.625rem;
+    /* margin: 0 0.625rem; */
 }
 
 
@@ -56,7 +59,7 @@
     height: 2.19rem;
     background-color: #F063B8;
     border-radius: 1.25rem;
-    margin: 0 0.625rem;
+    /* margin: 0 0.625rem; */
 }
 
 
@@ -70,20 +73,19 @@ margin: 0 0.625rem;
 
 .btn-with-arrow {
     background-color: #FFFFFF;
-    width: 13.125rem;
+    /* width: 13.125rem; */
     height: 3.75rem;
     border-radius: 50px;
     border: 1px solid #FFFFFF;
     box-shadow: 0px 0.3125rem 0.3125rem rgba(75, 93, 104, 0.1);
     font-weight: 800;
+    padding: 2rem;
 }
 
+.arrow {
+    margin-left: 0.25rem;
+}
 
-/* .arrow-right {
-    width: 14px;
-    height: 6px;
-    background-color: #9C69E2;
-} */
 
 
 
@@ -95,56 +97,70 @@ margin: 0 0.625rem;
 
 
 .main-section-container {
+    background-image: url("images/image1 1.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right bottom;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+
+
+
+/* .main-section-container {
     display: flex;
     justify-content: center;
-}
+} */
 
 .big-text-ms {
     color: #212353;
     font-size: 5rem;
     font-weight: 800;
+    width: 50%;
 }
 
 .small-text-ms {
     color: #4B5D68;
     font-size: 1.125rem;
     font-weight: 500;
+    width: 20%;
 }
 
-.bth-ms {
+.btn-learn-more {
     width: 10.625rem;
     height: 3.75;
-    border: 1px solid #9C69E2;
     border-radius: 3.125rem;
-    background-color: #9C69E2;
     color: #FFFFFF;
     font-size: 1.125rem;
     font-weight: 800;
-
+    padding: 1rem;;
 }
 
-.image1-1-ms {
-width: 100%;
+.btn-ms {
+    border: 1px solid #9C69E2;
+    background-color: #9C69E2;
+}
+
+/* .image1-1-ms {
+width: 100%; */
 /* position: relative;
 bottom: 0rem;
 right: 0rem; */
-}
+/* } */
 
 
 
-.right-side-ms {
-/* z-index:0; */
-position: relative;
-}
 
-.left-side-ms {
+/* .left-side-ms {
 position: absolute;
-/* z-index: 1; */
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 justify-content: flex-start;
-}
+} */
 
 
 
@@ -375,4 +391,94 @@ margin: 1.25rem;
     border: 0.06rem solid #FFFFFF;
     border-radius: 50%;
     background-color: #FFFFFF;
+}
+
+
+.four-ellipses {
+    display: flex;
+    gap: 1rem;
+}
+
+.bottom-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem;
+}
+
+.first-white-rectangle {
+    position: relative;
+    display: flex;
+}
+
+
+
+/* .left-side-of-white-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+/* } */ */
+
+.circle-image-1 {
+position: absolute;
+top:3.75rem;
+left: 4.4rem;
+}
+
+.right-side-of-white-rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 50%; */
+}
+
+.name1 {
+font-size: 1.125rem;
+font-weight: 900;
+color: #212353;
+}
+
+.profession1 {
+font-size: 0.9rem;
+font-weight: 500;
+color: #9C69E2;
+}
+
+.personal-description1 {
+font-size: 1.125rem;
+font-weight: 400;
+color: #4B5D68;
+}
+
+
+/* SECTION TRY FOR FREE */
+
+.try-for-free {
+font-size: 2.5rem;
+font-weight: 700;
+color: #212353;
+}
+
+.get-limited {
+font-size: 1.125rem;
+font-weight: 500;
+color: #4B5D68;
+margin-top: 2rem;
+}
+
+.btn-learn-more-try-for-free {
+    border: 1px solid #F063B8;
+    background-color: #F063B8;
+    margin-right: 2rem;
+}
+
+.section-try-for-free-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* DATAWAREHOUSE */
+
+.rectangle-and-datawarehouse {
+    display: flex;
 }
