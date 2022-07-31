@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 .container {
@@ -16,17 +17,27 @@
     height: auto;
 }
 
+.helvetica-font {
+font-family: Helvetica, sans-serif;
+}
+
+.avenir-font {
+    font-family: Avenir;
+}
+
+
+/* NAVIGATION */
+
+
 .recangle-container {
-    /* width: 15%; */
     display: flex;
-        /* justify-content: space-around; */
     gap: 0.5rem;
     align-items: flex-end;
 }
 
 
-
 .links {
+    list-style: none;
     display: flex;
     justify-content: flex-start;
     width: 50%;
@@ -34,32 +45,27 @@
 
 .container-btn {
     display: flex;
-    flex-direction: row;
 }
 
 .navigation-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* margin: 4.0625rem 15rem; */
 }
 
-.rectangle-32 {
+.rectangle-pink {
     width: 1.25rem;
     height: 1.25rem;
     background-color: #9C69E2;
     border-radius: 50%;
-    /* margin: 0 0.625rem; */
 }
 
 
-.rectangle-33 {
+.rectangle-purple {
     width: 1.25rem;
     height: 2.19rem;
     background-color: #F063B8;
     border-radius: 1.25rem;
-    /* margin: 0 0.625rem; */
 }
 
 
@@ -69,11 +75,8 @@ margin: 0 0.625rem;
 }
 
 
-
-
 .btn-with-arrow {
     background-color: #FFFFFF;
-    /* width: 13.125rem; */
     height: 3.75rem;
     border-radius: 50px;
     border: 1px solid #FFFFFF;
@@ -88,16 +91,11 @@ margin: 0 0.625rem;
 
 
 
-
-
-
-
-
 /* MAIN SECTION */
 
 
 .main-section-container {
-    background-image: url("images/image1 1.png");
+    background-image: url("images/main-image.png");
     height: 500px;
     background-repeat: no-repeat;
     background-size: 80%;
@@ -107,13 +105,6 @@ margin: 0 0.625rem;
     gap: 3.5rem;
 }
 
-
-
-
-/* .main-section-container {
-    display: flex;
-    justify-content: center;
-} */
 
 .big-text-ms {
     color: #212353;
@@ -144,28 +135,9 @@ margin: 0 0.625rem;
     background-color: #9C69E2;
 }
 
-/* .image1-1-ms {
-width: 100%; */
-/* position: relative;
-bottom: 0rem;
-right: 0rem; */
-/* } */
 
 
-
-
-/* .left-side-ms {
-position: absolute;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: flex-start;
-} */
-
-
-
-
-/* 1 SECTION */
+/* PINK SECTION */
 
 
 
@@ -176,10 +148,9 @@ justify-content: flex-start;
     border-radius: 3rem;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
 }
 
-.image2 {
+.pink-s-image {
     width: 29,81rem;
     height: auto;
 }
@@ -207,16 +178,16 @@ justify-content: flex-start;
 }
 
 
-/* 2 SECTION */
+/* 2 FEAURES SECTION */
 
-.main-text-ss {
+.main-text-fs {
     color: #212353;
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
 }
 
-.small-text-ss {
+.small-text-fs {
     color: #212353;
     font-size: 1.125rem;
     font-weight: 500;
@@ -224,53 +195,38 @@ justify-content: flex-start;
 }
 
 
-/* 3 SECTION */
+/* FOUR BOXES SECTION */
 
 .box {
     margin: 2.5rem;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 27.6rem;
+    height: 14.5rem;
 }
 
 
 .box1 {
-    display: flex;
-    background-image: url("Rectangle 39_1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    width: 27.6rem;
-    height: 14.5rem;
+    background-image: url("images/rectangle_1.png");
 }
 
 .box2 {
-    display: flex;
-    background-image: url("Rectangle 39_2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    width: 27.6rem;
-    height: 14.5rem;
+    background-image: url("images/rectangle_2.png");
 }
 
 .box3 {
-    display: flex;
-    background-image: url("Rectangle 39_3.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    width: 27.6rem;
-    height: 14.5rem;
+    background-image: url("images/rectangle_3.png");
 }
 
 .box4 {
-    display: flex;
-    background-image: url("Rectangle 39_4.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    width: 27.6rem;
-    height: 14.5rem;
+    background-image: url("images/rectangle_4.png");
 }
 
+.front-image-box {
+margin: 1.5rem 0;
+}
 
 .front-image-box1 {
     width: 14.5rem;
@@ -292,6 +248,13 @@ justify-content: flex-start;
     height: 12.6rem;
 }
 
+.arrow-box {
+    width: auto;
+    height: 1rem;
+    margin-left: 1rem;
+}
+
+
 
 .main-text-box {
     color: #212353;
@@ -308,15 +271,20 @@ justify-content: flex-start;
 .learn-more-box {
    color: #212353;
    font-size: 1rem;
-   font-weight: 800; 
+   font-weight: 800;
 }
 
-.third-section-container {
+.four-boxes-section-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.learn-and-arrow {
+    display: flex;
+    flex-direction: row;
+    color: #F063B8;
+}
 
 /* DLACZEGO NIE MOGĘ WYŚRODKOWAĆ W PIONIE? SCHODZI MI TYLKO ODROBINĘ NA DÓŁ */
 .left-container-of-box {
@@ -330,7 +298,7 @@ justify-content: flex-start;
     justify-content: space-around;
 }
 
-/* 4 SECTION */
+/* SLIDER SECTION */
 
 .big-purple-rectangle {
     width: 69.9rem;
