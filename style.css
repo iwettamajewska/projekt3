@@ -1,505 +1,479 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
-    width: 80vw;
-    margin: 0 auto;
-    padding-bottom: 2.5rem;
+  width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
 }
 
 .body {
-    background-color: #E5E5E5;
-    width: 100vw;
-    height: auto;
+  background-color: #e5e5e5;
+  width: 100vw;
+  height: auto;
 }
-
 
 /* NAVIGATION */
 
-
 .recangle-container {
-    display: flex;
-    gap: 0.5rem;
-    align-items: flex-end;
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-end;
 }
 
-
 .links {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
 }
 
 .container-btn {
-    display: flex;
+  display: flex;
 }
 
 .navigation-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .rectangle-pink {
-    width: 1.25rem;
-    height: 1.25rem;
-    background-color: #9C69E2;
-    border-radius: 50%;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: #9c69e2;
+  border-radius: 50%;
 }
-
 
 .rectangle-purple {
-    width: 1.25rem;
-    height: 2.19rem;
-    background-color: #F063B8;
-    border-radius: 1.25rem;
+  width: 1.25rem;
+  height: 2.19rem;
+  background-color: #f063b8;
+  border-radius: 1.25rem;
 }
 
-
-
-.links>.link {
-margin: 0 0.625rem;
+.links > .link {
+  margin: 0 0.625rem;
 }
-
 
 .btn-with-arrow {
-    background-color: #FFFFFF;
-    height: 3.75rem;
-    border-radius: 50px;
-    border: 1px solid #FFFFFF;
-    box-shadow: 0px 0.3125rem 0.3125rem rgba(75, 93, 104, 0.1);
-    font-weight: 800;
-    padding: 2rem;
+  background-color: #ffffff;
+  height: 3.75rem;
+  border-radius: 50px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0.3125rem 0.3125rem rgba(75, 93, 104, 0.1);
+  font-weight: 800;
+  padding: 2rem;
 }
 
 .arrow {
-    margin-left: 0.25rem;
+  margin-left: 0.25rem;
 }
-
-
 
 /* MAIN SECTION */
 
-
 .main-section-container {
-    background-image: url("images/main-image.png");
-    /* height: 31.25rem; */
-    width: 55,3rem;
-    height: auto;
-    /* width: auto; */
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: right bottom;
-    display: flex;
-    flex-direction: column;
-    gap: 3.5rem;
+  background-image: url("images/main-image.png");
+  /* height: 31.25rem; */
+  width: 55, 3rem;
+  height: auto;
+  /* width: auto; */
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: right bottom;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
 }
 
-
 .big-text-ms {
-    color: #212353;
-    font-size: 5rem;
-    font-weight: 800;
-    width: 50%;
+  color: #212353;
+  font-size: 5rem;
+  font-weight: 800;
+  width: 50%;
 }
 
 .small-text-ms {
-    color: #4B5D68;
-    font-size: 1.125rem;
-    font-weight: 500;
-    width: 20%;
+  color: #4b5d68;
+  font-size: 1.125rem;
+  font-weight: 500;
+  width: 20%;
 }
 
 .btn-learn-more {
-    width: 10.625rem;
-    height: 3.75;
-    border-radius: 3.125rem;
-    color: #FFFFFF;
-    font-size: 1.125rem;
-    font-weight: 800;
-    padding: 1rem;;
+  width: 10.625rem;
+  height: 3.75;
+  border-radius: 3.125rem;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 800;
+  padding: 1rem;
 }
 
 .btn-ms {
-    border: 1px solid #9C69E2;
-    background-color: #9C69E2;
+  border: 1px solid #9c69e2;
+  background-color: #9c69e2;
 }
-
-
 
 /* PINK SECTION */
 
-
-
 .pink-background-container {
-    width: 69,81rem;
-    height: 35rem;
-    background-color: rgba(240, 99, 184, 0.15);
-    border-radius: 3rem;
-    margin: 0 auto;
-    display: flex;
+  width: 69, 81rem;
+  height: 35rem;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 3rem;
+  margin: 0 auto;
+  display: flex;
 }
 
 .pink-s-image {
-    width: 29,81rem;
-    height: auto;
+  width: 29, 81rem;
+  height: auto;
 }
 
 .big-text-1s {
-    color: #212353;
-    font-size: 2.5rem;
-    font-weight: 700;
+  color: #212353;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 .small-text-1s {
-    color: #4B5D68;
-    font-size: 1.125rem;
-    font-weight: 500;
+  color: #4b5d68;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
 
 .text {
-    padding: 1.25rem 0;
+  padding: 1.25rem 0;
 }
 
 .right-side-fs {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 
 /* 2 FEAURES SECTION */
 
 .main-text-fs {
-    color: #212353;
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-align: center;
+  color: #212353;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 .small-text-fs {
-    color: #212353;
-    font-size: 1.125rem;
-    font-weight: 500;
-    text-align: center;
+  color: #212353;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-align: center;
 }
-
 
 /* FOUR BOXES SECTION */
 
 .box {
-    margin: 2.5rem;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-    width: 27.6rem;
-    height: 14.5rem;
+  margin: 2.5rem;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  width: 27.6rem;
+  height: 14.5rem;
 }
 
-
 .box1 {
-    background-image: url("images/rectangle_1.png");
+  background-image: url("images/rectangle_1.png");
 }
 
 .box2 {
-    background-image: url("images/rectangle_2.png");
+  background-image: url("images/rectangle_2.png");
 }
 
 .box3 {
-    background-image: url("images/rectangle_3.png");
+  background-image: url("images/rectangle_3.png");
 }
 
 .box4 {
-    background-image: url("images/rectangle_4.png");
+  background-image: url("images/rectangle_4.png");
 }
 
 .front-image-box {
-margin: 1.5rem 0;
+  margin: 1.5rem 0;
 }
 
 .front-image-box1 {
-    width: 14.5rem;
-    height: 13.2rem;
+  width: 14.5rem;
+  height: 13.2rem;
 }
 
 .front-image-box2 {
-    width: 15.1rem;
-    height: 11.8rem;
+  width: 15.1rem;
+  height: 11.8rem;
 }
 
 .front-image-box3 {
-    width: 15.3rem;
-    height: 11.3rem;
+  width: 15.3rem;
+  height: 11.3rem;
 }
 
 .front-image-box4 {
-    width: 14.4rem;
-    height: 12.6rem;
+  width: 14.4rem;
+  height: 12.6rem;
 }
 
 .arrow-box {
-    width: auto;
-    height: 1rem;
-    margin-left: 1rem;
+  width: auto;
+  height: 1rem;
+  margin-left: 1rem;
 }
 
-
-
 .main-text-box {
-    color: #212353;
-    font-size: 1.5rem;
-    font-weight: 400;
+  color: #212353;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .small-text-box {
-    color: #4B5D68;
-    font-size: 1rem;
-    font-weight: 400;
+  color: #4b5d68;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .learn-more-box {
-   color: #212353;
-   font-size: 1rem;
-   font-weight: 800;
+  color: #212353;
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 .four-boxes-section-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .learn-and-arrow {
-    display: flex;
-    flex-direction: row;
-    color: #F063B8;
+  display: flex;
+  flex-direction: row;
+  color: #f063b8;
 }
 
 /* DLACZEGO NIE MOGĘ WYŚRODKOWAĆ W PIONIE? SCHODZI MI TYLKO ODROBINĘ NA DÓŁ */
 .left-container-of-box {
-    display: flex;
-    align-items: flex-end;
-} 
+  display: flex;
+  align-items: flex-end;
+}
 
 .right-container-of-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /* SLIDER SECTION */
 
 .big-purple-rectangle {
-    width: 69.9rem;
-    height: 44.3rem;
-    padding: 0 3rem;
-    /* margin: 0 3rem; */
-    background-color: #9C69E2;
-    border: 0.06rem solid #9C69E2;
-    border-radius: 3.125rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 69.9rem;
+  height: 44.3rem;
+  padding: 0 3rem;
+  /* margin: 0 3rem; */
+  background-color: #9c69e2;
+  border: 0.06rem solid #9c69e2;
+  border-radius: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .big-text-fourth-section {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #FFFFFF;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .white-rectangle {
-    max-height: 20.6rem;
-    border: 0.06rem solid #FFFFFF;
-    border-radius: 1.25rem;
-    background-color: #FFFFFF;
-    padding: 3.125rem;;
-    margin: 1.25rem;
-    display: flex;
-    /* box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3); DLACZEGO TEGO NIE WIDAĆ? */
+  max-height: 20.6rem;
+  border: 0.06rem solid #ffffff;
+  border-radius: 1.25rem;
+  background-color: #ffffff;
+  padding: 3.125rem;
+  margin: 1.25rem;
+  display: flex;
+  /* box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3); DLACZEGO TEGO NIE WIDAĆ? */
 }
 
 .first-white-rectangle {
-max-width: 40.3rem;
+  max-width: 40.3rem;
 }
 
 .second-white-rectangle {
-max-width: 25rem;
+  max-width: 25rem;
 }
 
 .third-white-rectangle {
-max-width: 25rem;
+  max-width: 25rem;
 }
 
 .three-medium-rectangles {
-    display: flex;
+  display: flex;
 }
 
 .first-ellipse {
-    width: 0.6rem;
-    height: 0.6rem;
-    border: 0.06rem solid #F063B8;
-    border-radius: 50%;
-    background-color: #F063B8;
+  width: 0.6rem;
+  height: 0.6rem;
+  border: 0.06rem solid #f063b8;
+  border-radius: 50%;
+  background-color: #f063b8;
 }
 
 .white-ellipse {
-    width: 0.31rem;
-    height: 0.31rem;
-    border: 0.06rem solid #FFFFFF;
-    border-radius: 50%;
-    background-color: #FFFFFF;
+  width: 0.31rem;
+  height: 0.31rem;
+  border: 0.06rem solid #ffffff;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
-
 .four-ellipses {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .bottom-icons {
-    display: flex;
-    justify-content: space-between;
-    margin: 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem;
 }
 
-
 .circle-image {
-    max-width: 5.625rem;
-    height: auto;
+  max-width: 5.625rem;
+  height: auto;
 }
 
 .right-side-of-white-rectangle {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 .name {
-    font-size: 1.125rem;
-    font-weight: 900;
-    color: #212353;    
-    margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 900;
+  color: #212353;
+  margin-bottom: 0.5rem;
 }
 
-
 .profession {
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: #9C69E2;
-    margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #9c69e2;
+  margin-bottom: 1.25rem;
 }
 
 .personal-description {
-font-size: 1.125rem;
-font-weight: 400;
-color: #4B5D68;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #4b5d68;
 }
 
 .long-arrow {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
 
 /* SECTION TRY FOR FREE */
 
 .try-for-free {
-font-size: 2.5rem;
-font-weight: 700;
-color: #212353;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #212353;
 }
 
 .get-limited {
-font-size: 1.125rem;
-font-weight: 500;
-color: #4B5D68;
-margin-top: 2rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #4b5d68;
+  margin-top: 2rem;
 }
 
 .btn-learn-more-try-for-free {
-    border: 1px solid #F063B8;
-    background-color: #F063B8;
-    margin-right: 2rem;
+  border: 1px solid #f063b8;
+  background-color: #f063b8;
+  margin-right: 2rem;
 }
 
 .section-try-for-free-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* DATAWAREHOUSE */
 
 .rectangle-and-datawarehouse {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
 }
 
 .datawarehouse-about-help-sm-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .datawarehouse {
-    font-size: 1.25rem;
-    font-weight: 900;
-    color: #212353;
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #212353;
 }
 
 .contact {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #212353;
-    
+  font-size: 1rem;
+  font-weight: 500;
+  color: #212353;
 }
 
 .mail-phone {
-    font-size: 1rem;
-    font-weight: 400;
-    color: #212353;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212353;
 }
 
 .address1 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .address2 {
-margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .a-h-sm {
-    font-size: 1rem;
-    font-weight: 900;
-    color: #212353;
-    margin-bottom: 3rem;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #212353;
+  margin-bottom: 3rem;
 }
 
 .small-text {
-    font-size: 1rem;
-    font-weight: 400;
-    color: #212353;
-    margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212353;
+  margin-bottom: 1rem;
 }
-
-
 
 /* FOOTER */
 
 .footer-text {
-    font-size: 0.75rem;
-    font-weight: 400;
-    color: #212353;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #212353;
 }
 
 .first-line {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
