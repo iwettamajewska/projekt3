@@ -77,6 +77,7 @@ body {
   padding: 1rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .arrow {
@@ -122,6 +123,8 @@ body {
   font-size: 1.125rem;
   font-weight: 800;
   padding: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .btn-ms {
@@ -287,9 +290,8 @@ body {
 
 .big-purple-rectangle {
   width: 69.9rem;
-  height: 44.3rem;
+  max-height: 44.3rem;
   padding: 0 3rem;
-  /* margin: 0 3rem; */
   background-color: #9c69e2;
   border: 0.06rem solid #9c69e2;
   border-radius: 3.125rem;
@@ -303,6 +305,8 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
   color: #ffffff;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 .white-rectangle {
@@ -318,19 +322,16 @@ body {
 }
 
 .first-white-rectangle {
-  flex: 2;
+  width: 40.3rem;
 }
 
-.second-white-rectangle {
-  flex: 1;
-}
-
-.third-white-rectangle {
-  flex: 1;
-}
+/* .second-white-rectangle, .third-white-rectangle {
+  width: 25rem;
+} */
 
 .three-medium-rectangles {
   display: flex;
+  justify-content: center;
 }
 
 .first-ellipse {
@@ -351,6 +352,7 @@ body {
 
 .four-ellipses {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
