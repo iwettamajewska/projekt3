@@ -9,7 +9,6 @@ body {
   font-size: 16px;
 }
 
-
 .container {
   width: 80vw;
   margin: 0 auto;
@@ -30,11 +29,18 @@ body {
   align-items: flex-end;
 }
 
-.links {
+.ul-list {
   list-style: none;
+}
+
+.links {
   display: flex;
   justify-content: flex-start;
   width: 50%;
+}
+
+.active-link {
+  font-weight: 800;
 }
 
 .container-btn {
@@ -87,12 +93,10 @@ body {
 
 .main-section-container {
   background-image: url("images/main-image.png");
-  /* height: 31.25rem; */
-  width: 55, 3rem;
+  min-width: 55.25rem;
   height: auto;
-  /* width: auto; */
   background-repeat: no-repeat;
-  background-size: 75%;
+  background-size: 70%;
   background-position: right bottom;
   display: flex;
   flex-direction: column;
@@ -134,7 +138,7 @@ body {
 /* PINK SECTION */
 
 .pink-background-container {
-  width: 69, 81rem;
+  width: 69.81rem;
   height: 35rem;
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 3rem;
@@ -144,7 +148,7 @@ body {
 }
 
 .pink-s-image {
-  width: 29, 81rem;
+  width: 29.81rem;
   height: auto;
 }
 
@@ -161,13 +165,14 @@ body {
 }
 
 .text {
-  padding: 1.25rem 0;
+  padding: 1.25rem 2rem;
 }
 
 .right-side-fs {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* padding: 0 1.25rem; */
 }
 
 /* 2 FEAURES SECTION */
@@ -177,6 +182,7 @@ body {
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 1.25rem;
 }
 
 .small-text-fs {
@@ -318,7 +324,6 @@ body {
   margin: 1.25rem;
   display: flex;
   box-shadow: 0px 20px 0px #8a56db;
-  
 }
 
 .first-white-rectangle {
@@ -335,11 +340,14 @@ body {
   justify-content: center;
 }
 
-.first-ellipse {
+.slider-ellipse {
+  border-radius: 50%;
+}
+
+.active-ellipse {
   width: 0.6rem;
   height: 0.6rem;
   border: 0.06rem solid #f063b8;
-  border-radius: 50%;
   background-color: #f063b8;
 }
 
@@ -347,7 +355,6 @@ body {
   width: 0.31rem;
   height: 0.31rem;
   border: 0.06rem solid #ffffff;
-  border-radius: 50%;
   background-color: #ffffff;
 }
 
@@ -426,6 +433,7 @@ body {
 .section-try-for-free-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1.25rem;
 }
 
 /* DATAWAREHOUSE */
@@ -433,13 +441,15 @@ body {
 .rectangle-and-datawarehouse {
   display: flex;
   align-items: center;
+  justify-content: baseline;
   gap: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .datawarehouse-about-help-sm-container {
   display: flex;
   justify-content: space-between;
+  /* justify-content: baseline; */
 }
 
 .datawarehouse {
@@ -472,6 +482,7 @@ body {
   font-weight: 900;
   color: #212353;
   margin-bottom: 3rem;
+  padding-top: 0.5rem;
 }
 
 .small-text {
